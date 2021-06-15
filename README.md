@@ -111,7 +111,7 @@ def plot_decision_regions(X, y, classifier, test_idx=None, resolution=0.02):
                     s=100,
                     label='test set')
 ```
-###ここから
+### ここから
 ``` python
 X_combined_std = np.vstack((X_train_std, X_test_std))
 
